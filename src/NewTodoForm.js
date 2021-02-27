@@ -26,7 +26,7 @@ export default class NewTodoForm extends Component {
     return (
       <div>
         <form className="NewTodoForm" onSubmit={this.handleSubmit}>
-          <label htmlFor="task">New Todo</label>
+          {/* <label htmlFor="task">New Todo</label> */}
           <input
             type="text"
             placeholder="New Todo"
